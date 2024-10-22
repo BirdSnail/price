@@ -1,0 +1,17 @@
+### 获取价格
+POST http://localhost:8080/product/price
+Content-Type: application/json
+
+{
+  "id": 1000,
+  "couponType": 1
+}
+
+### 获取价格2
+POST http://localhost:8080/product/price
+Content-Type: application/json
+
+{
+  "id": 1000,
+  "couponType": 2
+}
